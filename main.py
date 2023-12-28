@@ -24,8 +24,8 @@ class Main(QWidget):
 
     def paintEvent(self, event):
             painter = QPainter(self)
-            painter.setPen(QPen(Qt.blue, 8))
-            painter.setBrush(QBrush(Qt.red))
+            painter.setPen(QPen(Qt.red, 8))
+            painter.setBrush(QBrush(Qt.yellow))
             if self.flag:
                 self.s1 = randint(10, 50)
                 self.s2 = randint(1, 400)
